@@ -1,20 +1,20 @@
-require 'mongo'
-include Mongo
-
-require 'uri'
+# require 'mongo'
+# include Mongo
+#
+# require 'uri'
 
 class GuestController < ApplicationController
   def db
-    mongo_uri = ENV['MONGOLAB_URI']
-
-    if !mongo_uri.nil?
-      db_name = mongo_uri[%r{/([^/\?]+)(\?|$)}, 1]
-      client = MongoClient.from_uri(mongo_uri)
-    else
-      client = MongoClient.new('localhost', 27017);
-    end
-    client.db(db_name)
-  end
+  #   mongo_uri = ENV['MONGOLAB_URI']
+  #
+  #   if !mongo_uri.nil?
+  #     db_name = mongo_uri[%r{/([^/\?]+)(\?|$)}, 1]
+  #     client = MongoClient.from_uri(mongo_uri)
+  #   else
+  #     client = MongoClient.new('localhost', 27017);
+  #   end
+  #   client.db(db_name)
+  # end
 
   def enter
     DiningPartnersWeb::Application.config.guests = 1
