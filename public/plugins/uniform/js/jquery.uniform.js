@@ -58,7 +58,7 @@
         elements: []
     };
 
-    if (($.browser.msie != undefined) && $.browser.version < 7) {
+    if (($.browser != undefined) && ($.browser.msie != undefined) && $.browser.version < 7) {
         $.selectOpacity = false;
     } else {
         $.selectOpacity = true;
