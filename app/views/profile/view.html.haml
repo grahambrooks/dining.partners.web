@@ -1,0 +1,1950 @@
+
+%h1
+  =@profile[:name]
+
+
+%section.container-fluid
+  %h3 Buttons
+  %hr/
+  .row-fluid
+    .span7
+      .btn-toolbar{:style => "margin:0 0 10px 0;"}
+        %a.btn.btn-mini{:href => "#"} default
+        %a.btn.btn-mini.btn-info{:href => "#"} info
+        %a.btn.btn-mini.btn-primary{:href => "#"} primary
+        %a.btn.btn-mini.btn-success{:href => "#"} success
+        %a.btn.btn-mini.btn-warning{:href => "#"} warning
+        %a.btn.btn-mini.btn-danger{:href => "#"} danger
+        %a.btn.btn-mini.btn-inverse{:href => "#"} inverse
+      .btn-toolbar{:style => "margin:0 0 10px 0;"}
+        %a.btn.btn-small{:href => "#"} default
+        %a.btn.btn-small.btn-info{:href => "#"} info
+        %a.btn.btn-small.btn-primary{:href => "#"} primary
+        %a.btn.btn-small.btn-success{:href => "#"} success
+        %a.btn.btn-small.btn-warning{:href => "#"} warning
+        %a.btn.btn-small.btn-danger{:href => "#"} danger
+        %a.btn.btn-small.btn-inverse{:href => "#"} inverse
+      .btn-toolbar{:style => "margin:0 0 10px 0;"}
+        %a.btn{:href => "#"} default
+        %a.btn.btn-info{:href => "#"} info
+        %a.btn.btn-primary{:href => "#"} primary
+        %a.btn.btn-success{:href => "#"} success
+        %a.btn.btn-warning{:href => "#"} warning
+        %a.btn.btn-danger{:href => "#"} danger
+        %a.btn.btn-inverse{:href => "#"} inverse
+    .span5
+      .btn-toolbar{:style => "margin:0 0 10px 0;"}
+        %a.btn.btn-large{:href => "#"} default
+        %a.btn.btn-large.btn-info{:href => "#"} info
+        %a.btn.btn-large.btn-primary{:href => "#"} primary
+        %a.btn.btn-large.btn-success{:href => "#"} success
+      .btn-toolbar{:style => "margin:0 0 10px 0;"}
+        %a.btn.btn-large.btn-warning{:href => "#"} warning
+        %a.btn.btn-large.btn-danger{:href => "#"} danger
+        %a.btn.btn-large.btn-inverse{:href => "#"} inverse
+  %hr/
+  #withPieChart.btn-toolbar{:style => "margin:0 0 10px 0;"}
+    .row-fluid
+      .span7
+        %a.knob-wrapper.knob-chart{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "65"}
+              %span 65%
+            %small New visitors
+        %a.knob-wrapper.knob-chart.knob-info{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "21"}
+              %span 21%
+            %small Bounce rate
+        %a.knob-wrapper.knob-chart.knob-primary{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "45"}
+              %span 45%
+            %small Blog comments
+        %a.knob-wrapper.knob-chart.knob-success{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "85"}
+              %span 85%
+            %small Item sold
+        %a.knob-wrapper.knob-chart.knob-warning{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "68"}
+              %span 68%
+            %small Goal
+        %a.knob-wrapper.knob-chart.knob-danger{:href => "#"}
+          %span.knob-inner
+            %span.percentage{"data-percent" => "55"}
+              %span 55%
+            %small Returning visitors
+        %hr/
+        .knob-wrapper.knob-chart.with-button
+          %span.knob-inner
+            %span.percentage{"data-percent" => "65"}
+              %span 65%
+            %small New visitors
+          %a.btn.btn-large.btn-danger{:href => "#"} 58,459
+        .knob-wrapper.knob-chart.knob-info.with-button.left
+          %span.knob-inner
+            %span.percentage{"data-percent" => "35"}
+              %span 35%
+            %small Returning visitors
+          %a.btn.btn-large.btn-danger{:href => "#"} 25,342
+        %hr/
+        .row-fluid
+          .span6
+            %a.btn.btn-large.btn-block.btn-danger{:href => "#"} Action
+          .span6
+            %a.btn.btn-large.btn-block.btn-inverse{:href => "#"} Action
+      .span5
+        %a.btn.btn-mini.btn-square{:href => "#"}
+          %i.icon-edit
+        %a.btn.btn-mini.btn-square.btn-info{:href => "#"}
+          %i.micon-user-2
+        %a.btn.btn-mini.btn-square.btn-primary{:href => "#"}
+          %i.picon-pinterest
+        %a.btn.btn-mini.btn-square.btn-success{:href => "#"}
+          %i.picon-skype
+        %a.btn.btn-mini.btn-square.btn-danger{:href => "#"}
+          %i.picon-paypal
+        %a.btn.btn-mini.btn-square.btn-warning{:href => "#"}
+          %i.picon-vimeo
+        %a.btn.btn-mini.btn-square.btn-inverse{:href => "#"}
+          %i.picon-dribbble
+        %hr/
+        %a.btn.btn-small.btn-square{:href => "#"}
+          %i.icon-edit
+        %a.btn.btn-small.btn-square.btn-info{:href => "#"}
+          %i.micon-user-2
+        %a.btn.btn-small.btn-square.btn-primary{:href => "#"}
+          %i.picon-pinterest
+        %a.btn.btn-small.btn-square.btn-success{:href => "#"}
+          %i.picon-skype
+        %a.btn.btn-small.btn-square.btn-danger{:href => "#"}
+          %i.picon-paypal
+        %a.btn.btn-small.btn-square.btn-warning{:href => "#"}
+          %i.picon-vimeo
+        %a.btn.btn-small.btn-square.btn-inverse{:href => "#"}
+          %i.picon-dribbble
+        %hr/
+        %a.btn.btn-square{:href => "#"}
+          %i.icon-edit
+        %a.btn.btn-square.btn-info{:href => "#"}
+          %i.micon-user-2
+        %a.btn.btn-square.btn-primary{:href => "#"}
+          %i.picon-pinterest
+        %a.btn.btn-square.btn-success{:href => "#"}
+          %i.picon-skype
+        %a.btn.btn-square.btn-danger{:href => "#"}
+          %i.picon-paypal
+        %a.btn.btn-square.btn-warning{:href => "#"}
+          %i.picon-vimeo
+        %a.btn.btn-square.btn-inverse{:href => "#"}
+          %i.picon-dribbble
+        %hr/
+        %a.btn.btn-large.btn-square{:href => "#"}
+          %i.icon-edit
+        %a.btn.btn-large.btn-square.btn-info{:href => "#"}
+          %i.micon-user-2
+        %a.btn.btn-large.btn-square.btn-primary{:href => "#"}
+          %i.picon-pinterest
+        %a.btn.btn-large.btn-square.btn-success{:href => "#"}
+          %i.picon-skype
+        %a.btn.btn-large.btn-square.btn-danger{:href => "#"}
+          %i.picon-paypal
+        %a.btn.btn-large.btn-square.btn-warning{:href => "#"}
+          %i.picon-vimeo
+        %a.btn.btn-large.btn-square.btn-inverse{:href => "#"}
+          %i.picon-dribbble
+        %hr/
+        %a.btn.btn-large.btn-block{:href => "#"} Action
+        %a.btn.btn-large.btn-block.btn-info{:href => "#"} Action
+        %a.btn.btn-large.btn-block.btn-primary{:href => "#"} Action
+        %a.btn.btn-large.btn-block.btn-success{:href => "#"} Action
+        %a.btn.btn-large.btn-block.btn-warning{:href => "#"} Action
+    %hr/
+    %a.knob-wrapper{:href => "#"}
+      %span.knob-inner
+        %i.micon-user-2
+        %small Default
+    %a.knob-wrapper.knob-info{:href => "#"}
+      %span.knob-inner
+        %i.icon-tags
+        %small Info
+    %a.knob-wrapper.knob-primary{:href => "#"}
+      %span.knob-inner
+        %i.icon-cog
+        %small Primary
+    %a.knob-wrapper.knob-success{:href => "#"}
+      %span.knob-inner
+        %i.icon-edit
+        %small Success
+    %a.knob-wrapper.knob-warning{:href => "#"}
+      %span.knob-inner
+        %i.icon-reply
+        %small Warning
+    %a.knob-wrapper.knob-danger{:href => "#"}
+      %span.knob-inner
+        %i.icon-gift
+        %small Danger
+    %a.knob-wrapper.knob-inverse{:href => "#"}
+      %span.knob-inner
+        %i.icon-trash
+        %small Inverse
+    %a.knob-wrapper.knob-large{:href => "#"}
+      %span.knob-inner
+        %i.micon-user-2
+        %small Default
+    %a.knob-wrapper.knob-large.knob-info{:href => "#"}
+      %span.knob-inner
+        %i.icon-tags
+        %small Info
+    %a.knob-wrapper.knob-large.knob-primary{:href => "#"}
+      %span.knob-inner
+        %i.icon-cog
+        %small Primary
+    %a.knob-wrapper.knob-large.knob-success{:href => "#"}
+      %span.knob-inner
+        %i.icon-edit
+        %small Success
+    %a.knob-wrapper.knob-large.knob-warning{:href => "#"}
+      %span.knob-inner
+        %i.icon-reply
+        %small Warning
+    %a.knob-wrapper.knob-large.knob-danger{:href => "#"}
+      %span.knob-inner
+        %i.icon-gift
+        %small Danger
+    %a.knob-wrapper.knob-large.knob-inverse{:href => "#"}
+      %span.knob-inner
+        %i.icon-trash
+        %small Inverse
+  %hr/
+  .row-fluid
+    %h3 Button / Split Button Dropdowns
+    .span12
+      .btn-toolbar{:style => "margin: 0;"}
+        .btn-group
+          %button.btn.btn-large.dropdown-toggle{"data-toggle" => "dropdown"}
+            Default
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+        .btn-group.dropdown-1
+          %button.btn.btn-large.btn-primary.dropdown-toggle{"data-toggle" => "dropdown"}
+            1. Dropdown + css tabs
+            %span.caret
+          %ul.dropdown-menu
+            %li.dropdown-heading
+              %h4.title.pull-left Messages
+              %a.btn.btn-info.pull-right{:href => "#"} View all
+            %li
+              .ctabs
+                .ctab
+                  %input#tab-1{:checked => "", :name => "tab-group-1", :type => "radio"}/
+                  %label{:for => "tab-1"} Work
+                  .content
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/1"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Sumitro
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/2"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Rojali
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/3"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Juleha
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/4"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Marfuah
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                .ctab
+                  %input#tab-2{:name => "tab-group-1", :type => "radio"}/
+                  %label{:for => "tab-2"} Friends
+                  .content
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/5"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Markonah
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/6"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Jumirah
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                .ctab
+                  %input#tab-3{:name => "tab-group-1", :type => "radio"}/
+                  %label{:for => "tab-3"} Family
+                  .content
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/7"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Bariyah
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+                    .media
+                      %a.pull-left{:href => "#"}
+                        %img.media-object{:src => "http://lorempixel.com/30/30/nature/8"}/
+                      .media-body
+                        %h4.media-heading
+                          %a{:href => "#"} Bejo
+                        %small Jan 05, 2013. 12:35:40 GMT+8
+        .btn-group.dropdown-2
+          %button.btn.btn-large.btn-danger 2. Dropdown + accordion
+          %button.btn.btn-large.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+            %span.caret
+          %ul.dropdown-menu
+            %li.dropdown-heading
+              %h4.title.pull-left My settings
+              %a.btn.btn-danger.pull-right{:href => "#"} View all
+            %li
+              #accordion2.accordion
+                .accordion-group
+                  .accordion-heading
+                    %a.accordion-toggle.collapsed{"data-parent" => "#accordion2", "data-toggle" => "collapse", :href => "#collapseOne"}
+                      Account Settings
+                      %i.pull-right.icon-large.micon-user-2
+                  #collapseOne.accordion-body.collapse.in
+                    .accordion-inner.menu-listing
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 1
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 2
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 3
+                .accordion-group
+                  .accordion-heading
+                    %a.accordion-toggle{"data-parent" => "#accordion2", "data-toggle" => "collapse", :href => "#collapseTwo"}
+                      Blog Settings
+                      %i.pull-right.icon-large.micon-newspaper
+                  #collapseTwo.accordion-body.collapse
+                    .accordion-inner.menu-listing
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 1
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 2
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 3
+                .accordion-group
+                  .accordion-heading
+                    %a.accordion-toggle{"data-parent" => "#accordion2", "data-toggle" => "collapse", :href => "#collapseThree"}
+                      Privacy Settings
+                      %i.pull-right.icon-large.micon-locked
+                  #collapseThree.accordion-body.collapse
+                    .accordion-inner.menu-listing
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 1
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 2
+                      %a{:href => "#"}
+                        %i.icon-file
+                        Menu item 3
+        .btn-group.dropdown-3
+          %button.btn.btn-large.btn-warning.dropdown-toggle.spc{"data-toggle" => "dropdown"}
+            3. Dropdown + custom scroll
+            %span.caret
+          %ul.dropdown-menu
+            %li.dropdown-heading
+              %a.btn.btn-info.pull-left{:href => "#"} Manage Blog
+              %a.btn.btn-success.pull-right{:href => "#"} New Post
+            %li
+              .menu-header
+                %h4.title.pull-left Latest Blog Posts
+                %a.pull-right{:href => "#"} view all
+              / menu content
+              .content_scroll
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/1"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Lorem ipsum dolor sit amet
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/2"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Aliquam erat volutpat
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/3"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Maecenas non tortor nulla
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/4"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Lorem ipsum dolor sit amet
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/5"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Aliquam erat volutpat
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+                .media
+                  %a.pull-left{:href => "#"}
+                    %img.media-object{:src => "http://lorempixel.com/40/40/animals/6"}/
+                  .media-body
+                    %h4.media-heading
+                      %a{:href => "#"} Maecenas non tortor nulla
+                    %small Jan 05, 2013. 12:35:40 GMT+8
+                    %p Aliquam erat volutpat. Maecenas non tortor nulla, non malesuada velit....
+      .clearfix
+  %hr/
+  .row-fluid
+    .span4
+      %h3 Right Align Progress Bars
+      .progress.right.narrow-margin
+        .bar.text-filled-2{"data-percentage" => "80", :style => "width: 80%;"} 80%
+      .progress.right.progress-info.narrow-margin
+        %span.title
+          %i.icon-sign-blank{:style => "color:#339bb9;"}
+          Google Chrome
+        %span.amount{:style => "color:#339bb9;"}
+          11,254&nbsp;&nbsp;
+          %i.micon-user-2
+        .bar.text-filled-2{"data-percentage" => "50", :style => "width: 50%;"} 50%
+      .progress.right.progress-warning.narrow-margin
+        %span.title
+          %i.icon-sign-blank{:style => "color:#f89406;"}
+          Mozila Firefox
+        %span.amount{:style => "color:#f89406;"}
+          6,142&nbsp;&nbsp;
+          %i.micon-user-2
+        .bar.text-filled-2{"data-percentage" => "30", :style => "width: 30%;"} 30%
+      .progress.right.progress-danger.narrow-margin
+        %span.title
+          %i.icon-sign-blank{:style => "color:#c43c35;"}
+          Opera
+        %span.amount{:style => "color:#c43c35;"}
+          4,442&nbsp;&nbsp;
+          %i.micon-user-2
+        .bar.text-filled-2{"data-percentage" => "20", :style => "width: 20%;"} 20%
+      %hr/
+      .progress.right.mini
+        .bar{"data-percentage" => "80", :style => "width: 80%;"}
+      .progress.progress-info.right.mini
+        .bar{"data-percentage" => "60", :style => "width: 60%;"}
+      .progress.progress-warning.right.mini
+        .bar{"data-percentage" => "40", :style => "width: 40%;"}
+      .progress.progress-danger.right.mini
+        .bar{"data-percentage" => "30", :style => "width: 30%;"}
+    .span4
+      %h3 Left Align Progress Bars
+      .progress.narrow-margin
+        .bar.text-filled-2{"data-percentage" => "80", :style => "width: 80%;"} 80%
+      .progress.progress-info.narrow-margin
+        %span.title
+          Windows 8
+          %i.icon-sign-blank{:style => "color:#339bb9;"}
+        %span.amount{:style => "color:#339bb9;"}
+          %i.micon-user-2>
+          \&nbsp;&nbsp;12,879
+        .bar.text-filled-2{"data-percentage" => "60", :style => "width: 60%;"} 60%
+      .progress.progress-warning.narrow-margin
+        %span.title
+          Win XP
+          %i.icon-sign-blank{:style => "color:#f89406;"}
+        %span.amount{:style => "color:#f89406;"}
+          %i.micon-user-2>
+          \&nbsp;&nbsp;8,254
+        .bar.text-filled-2{"data-percentage" => "25", :style => "width: 25%;"} 25%
+      .progress.progress-danger.narrow-margin
+        %span.title
+          Mac OS
+          %i.icon-sign-blank{:style => "color:#c43c35;"}
+        %span.amount{:style => "color:#c43c35;"}
+          %i.micon-user-2>
+          \&nbsp;&nbsp;4,873
+        .bar.text-filled-2{"data-percentage" => "15", :style => "width: 15%;"} 15%
+      %hr/
+      .progress.mini
+        .bar{"data-percentage" => "80", :style => "width: 80%;"}
+      .progress.progress-info.mini
+        .bar{"data-percentage" => "60", :style => "width: 60%;"}
+      .progress.progress-warning.mini
+        .bar{"data-percentage" => "40", :style => "width: 40%;"}
+      .progress.progress-danger.mini
+        .bar{"data-percentage" => "30", :style => "width: 30%;"}
+    .span4
+      %h3 Button Groups
+      .btn-group
+        %button.btn.btn-mini Left
+        %button.btn.btn-mini Middle
+        %button.btn.btn-mini Right
+      %hr/
+      .btn-group
+        %button.btn.btn-small.btn-info Left
+        %button.btn.btn-small.btn-info Middle
+        %button.btn.btn-small.btn-info Right
+      %hr/
+      .btn-group
+        %button.btn.btn-primary Left
+        %button.btn.btn-primary Middle
+        %button.btn.btn-primary Right
+      %hr/
+      .btn-group
+        %button.btn.btn-large.btn-success Left
+        %button.btn.btn-large.btn-success Middle
+        %button.btn.btn-large.btn-success Right
+      %hr/
+      .btn-group
+        %button.btn.btn-warning Left
+        %button.btn.btn-warning Middle
+        %button.btn.btn-warning Right
+      %hr/
+      .btn-group
+        %button.btn.btn-small.btn-danger Left
+        %button.btn.btn-small.btn-danger Middle
+        %button.btn.btn-small.btn-danger Right
+      %hr/
+      .btn-group
+        %button.btn.btn-mini.btn-inverse Left
+        %button.btn.btn-mini.btn-inverse Middle
+        %button.btn.btn-mini.btn-inverse Right
+  %hr/
+  .row-fluid
+    .span8
+      %h3 Vertical Progress Bars
+      .progress.vertical
+        .bar{"data-percentage" => "15", :style => "height: 15%;"}
+      .progress.vertical.progress-info
+        .bar{"data-percentage" => "25", :style => "height: 25%;"}
+      .progress.vertical.progress-success
+        .bar{"data-percentage" => "50", :style => "height: 50%;"}
+      .progress.vertical.progress-warning
+        .bar{"data-percentage" => "75", :style => "height: 75%;"}
+      .progress.vertical.progress-danger.extra-right-margin
+        .bar{"data-percentage" => "100", :style => "height: 100%;"}
+      .progress.vertical.bottom.progress-danger
+        .bar{"data-percentage" => "100", :style => "height: 100%;"}
+      .progress.vertical.bottom.progress-warning
+        .bar{"data-percentage" => "75", :style => "height: 75%;"}
+      .progress.vertical.bottom.progress-success
+        .bar{"data-percentage" => "50", :style => "height: 50%;"}
+      .progress.vertical.bottom.progress-info
+        .bar{"data-percentage" => "25", :style => "height: 25%;"}
+      .progress.vertical.bottom.extra-right-margin
+        .bar{"data-percentage" => "15", :style => "height: 15%;"}
+      .progress.mini.vertical
+        .bar{"data-percentage" => "15", :style => "height: 15%;"}
+      .progress.mini.vertical.progress-info
+        .bar{"data-percentage" => "25", :style => "height: 25%;"}
+      .progress.mini.vertical.progress-success
+        .bar{"data-percentage" => "50", :style => "height: 50%;"}
+      .progress.mini.vertical.progress-warning
+        .bar{"data-percentage" => "75", :style => "height: 75%;"}
+      .progress.mini.vertical.progress-danger.extra-right-margin
+        .bar{"data-percentage" => "100", :style => "height: 100%;"}
+      .progress.mini.vertical.bottom.progress-danger
+        .bar{"data-percentage" => "100", :style => "height: 100%;"}
+      .progress.mini.vertical.bottom.progress-warning
+        .bar{"data-percentage" => "75", :style => "height: 75%;"}
+      .progress.mini.vertical.bottom.progress-success
+        .bar{"data-percentage" => "50", :style => "height: 50%;"}
+      .progress.mini.vertical.bottom.progress-info
+        .bar{"data-percentage" => "25", :style => "height: 25%;"}
+      .progress.mini.vertical.bottom
+        .bar{"data-percentage" => "15", :style => "height: 15%;"}
+    .span4
+      %h3 Button Group + Button Dropdown
+      .btn-group
+        %button.btn.btn-info Left
+        %button.btn.btn-info Middle
+        %button.btn.btn-info Right
+        .btn-group.secondary.last
+          %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+      .clearfix{:style => "margin-bottom:15px;"}
+      .btn-group
+        %button.btn.btn-large.btn-success Left
+        %button.btn.btn-large.btn-success Middle
+        .btn-group.secondary.last
+          %button.btn.btn-large.btn-success.dropdown-toggle{"data-toggle" => "dropdown"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+      .clearfix{:style => "margin-bottom:15px;"}
+      .btn-group
+        %button.btn.btn-warning Left
+        .btn-group.secondary
+          %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+        %button.btn.btn-warning Right
+      .clearfix{:style => "margin-bottom:15px;"}
+      .btn-group
+        .btn-group.secondary.first
+          %button.btn.btn-large.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+        %button.btn.btn-large.btn-danger Left
+        %button.btn.btn-large.btn-danger Middle
+  %hr/
+  %h3 Navbars
+  .navbar.navbar-grey
+    .navbar-inner
+      %a.brand{:href => "#"} Grey
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  .navbar.navbar-inverse
+    .navbar-inner
+      %a.brand{:href => "#"} Dark
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  .navbar.navbar-blue
+    .navbar-inner
+      %a.brand{:href => "#"} Blue
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  .navbar.navbar-green
+    .navbar-inner
+      %a.brand{:href => "#"} Green
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  .navbar.navbar-orange
+    .navbar-inner
+      %a.brand{:href => "#"} Orange
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  .navbar.navbar-red
+    .navbar-inner
+      %a.brand{:href => "#"} Red
+      %ul.nav
+        %li.active
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Link
+        %li
+          %a{:href => "#"} Link
+      %form.navbar-search.pull-left
+        %input.search-query{:placeholder => "Search", :type => "text"}/
+      %ul.nav.pull-right
+        %li.divider-vertical
+        %li
+          %a{:href => "#"}
+            %i.icon-user.icon-large
+        %li
+          %a{:href => "#"}
+            %i.icon-cog.icon-large
+  %hr/
+  %form.form-horizontal
+    %fieldset
+      %legend Input Types
+      .row-fluid
+        .span6
+          / text input
+          .control-group
+            %label.control-label text input
+            .controls
+              %input#inputEmail{:placeholder => "Email", :type => "text"}/
+              %span.help-block
+                %i.icon-file
+                input description here.
+          / password field
+          .control-group
+            %label.control-label password
+            .controls
+              %input#inputPassword{:placeholder => "Password", :type => "password"}/
+          / select
+          .control-group
+            %label.control-label select
+            .controls
+              %select.cselect
+                %option 1
+                %option 2
+                %option 3
+                %option 4
+                %option 5
+          / multiple select
+          .control-group
+            %label.control-label multiple select
+            .controls
+              %select.cselect{:multiple => "multiple"}
+                %option 1
+                %option 2
+                %option 3
+                %option 4
+                %option 5
+          / textarea
+          .control-group
+            %label.control-label textarea
+            .controls
+              %textarea{:rows => "3"}
+          / checkbox
+          .control-group
+            %label.control-label checkbox
+            .controls
+              %label.checkbox
+                %input.cu{:type => "checkbox", :value => ""}/
+                Option one is this and that....
+          / inline checkbox
+          .control-group
+            %label.control-label inline checkbox
+            .controls
+              %label.checkbox.inline
+                %input#inlineCheckbox1.cu{:type => "checkbox", :value => "option1"}/
+                1
+              %label.checkbox.inline
+                %input#inlineCheckbox2.cu{:type => "checkbox", :value => "option2"}/
+                2
+              %label.checkbox.inline
+                %input#inlineCheckbox3.cu{:type => "checkbox", :value => "option3"}/
+                3
+        .span6
+          / radio
+          .control-group
+            %label.control-label radio
+            .controls
+              %label.radio
+                %input#optionsRadios1.cu{:checked => "", :name => "optionsRadios", :type => "radio", :value => "option1"}/
+                Option one....
+              %label.radio
+                %input#optionsRadios2.cu{:name => "optionsRadios", :type => "radio", :value => "option2"}/
+                Option two....
+          / inline radio
+          .control-group
+            %label.control-label inline radio
+            .controls
+              %label.radio.inline
+                %input.cu{:name => "inlineradio1", :type => "radio", :value => "option1"}/
+                1
+              %label.radio.inline
+                %input.cu{:name => "inlineradio1", :type => "radio", :value => "option2"}/
+                2
+              %label.radio.inline
+                %input.cu{:name => "inlineradio1", :type => "radio", :value => "option3"}/
+                3
+          / datepicker
+          .control-group
+            %label.control-label Date picker
+            .controls
+              / input date picker
+              %input#dp1.dp{"data-date-format" => "mm/dd/yyyy", :type => "text", :value => "01/16/2013"}/
+              / input date picker with append
+              .input-append.date.dp{"data-date" => "01/16/2013", "data-date-format" => "mm/dd/yyyy"}
+                %input{:readonly => "", :size => "16", :type => "text", :value => "01/16/2013"}/
+                %span.add-on
+                  %i.icon-calendar
+              / inline date picker
+              #dp6.dp{"data-date" => "01/16/2013", "data-date-format" => "mm/dd/yyyy"}
+    %hr/
+    %fieldset
+      %legend Validation States
+      .control-group.warning
+        %label.control-label{:for => "inputWarning"} Input with warning
+        .controls
+          %input#inputWarning{:type => "text"}/
+          %span.help-inline Something may have gone wrong
+      .control-group.error
+        %label.control-label{:for => "inputError"} Input with error
+        .controls
+          %input#inputError{:type => "text"}/
+          %span.help-inline Please correct the error
+      .control-group.info
+        %label.control-label{:for => "inputInfo"} Input with info
+        .controls
+          %input#inputInfo{:type => "text"}/
+          %span.help-inline Username is already taken
+      .control-group.success
+        %label.control-label{:for => "inputSuccess"} Input with success
+        .controls
+          %input#inputSuccess{:type => "text"}/
+          %span.help-inline Woohoo!
+    %hr/
+    %fieldset
+      %legend File Upload
+      .row-fluid
+        .span6
+          .control-group
+            .controls.full-width
+              .fileupload.fileupload-new{"data-provides" => "fileupload"}
+                .input-append
+                  .uneditable-input
+                    %i.icon-file.fileupload-exists
+                    %span.fileupload-preview
+                  %span.btn.btn-info.btn-file
+                    %span.fileupload-new Select file
+                    %span.fileupload-exists Change
+                    %input{:type => "file"}/
+                  %a.btn.btn-danger.fileupload-exists{"data-dismiss" => "fileupload", :href => "#"} Remove
+              %span.help-block
+                %i.icon-file
+                input description here.
+          .control-group
+            .controls.full-width
+              .fileupload.fileupload-new{"data-provides" => "fileupload"}
+                %span.btn.btn-info.btn-file
+                  %span.fileupload-new Select file
+                  %span.fileupload-exists Change
+                  %input{:type => "file"}/
+                %span.fileupload-preview
+                %a.close.fileupload-exists{"data-dismiss" => "fileupload", :href => "#", :style => "float: none"} &times;
+        .span3
+          .control-group
+            .controls.full-width
+              .fileupload.fileupload-new{"data-provides" => "fileupload"}
+                .fileupload-preview.thumbnail
+                %div
+                  %span.btn.btn-info.btn-file
+                    %span.fileupload-new Select image
+                    %span.fileupload-exists Change
+                    %input{:type => "file"}/
+                  %a.btn.btn-danger.fileupload-exists{"data-dismiss" => "fileupload", :href => "#"} Remove
+        .span3
+          .control-group
+            .controls.full-width
+              .fileupload.fileupload-new{"data-provides" => "fileupload"}
+                .fileupload-new.thumbnail{:style => "width: 200px; height: 150px;"}
+                  %img{:src => "http://www.placehold.it/200x150/EFEFEF/AAAAAA&text=no+image"}/
+                .fileupload-preview.fileupload-exists.thumbnail
+                %div
+                  %span.btn.btn-info.btn-file
+                    %span.fileupload-new Select image
+                    %span.fileupload-exists Change
+                    %input{:type => "file"}/
+                  %a.btn.btn-danger.fileupload-exists{"data-dismiss" => "fileupload", :href => "#"} Remove
+    %hr/
+    %fieldset
+      %legend Text Editor
+      .control-group
+        .controls.full-width
+          %textarea.full-editor
+          .row-fluid{:style => "margin-top:20px;"}
+            .span6
+              %textarea.status-editor
+            .span6
+              %textarea.comment-editor
+    %hr/
+    %fieldset
+      %legend Prepend
+      .control-group
+        .controls.full-width
+          .row-fluid
+            .span4
+              / text prepend
+              .input-prepend
+                %span.add-on @
+                %input{:type => "text"}/
+              .input-prepend.input-info
+                %span.add-on @
+                %input{:type => "text"}/
+              .input-prepend.input-primary
+                %span.add-on @
+                %input{:type => "text"}/
+              .input-prepend.input-success
+                %span.add-on @
+                %input{:type => "text"}/
+              .input-prepend.input-warning
+                %span.add-on @
+                %input{:type => "text"}/
+              .input-prepend.input-danger
+                %span.add-on @
+                %input{:type => "text"}/
+              / ./ text prepend
+              %hr/
+              / button prepend
+              .input-prepend
+                %button.btn{:type => "button"} Go!
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-info{:type => "button"} Go!
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-primary{:type => "button"} Go!
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-success{:type => "button"} Go!
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-warning{:type => "button"} Go!
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-danger{:type => "button"} Go!
+                %input{:type => "text"}/
+            .span4
+              / 2 button prepend
+              .input-prepend
+                %button.btn{:type => "button"} Search
+                %button.btn{:type => "button"} Options
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-info{:type => "button"} Search
+                %button.btn.btn-info{:type => "button"} Options
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-primary{:type => "button"} Search
+                %button.btn.btn-primary{:type => "button"} Options
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-success{:type => "button"} Search
+                %button.btn.btn-success{:type => "button"} Options
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-warning{:type => "button"} Search
+                %button.btn.btn-warning{:type => "button"} Options
+                %input{:type => "text"}/
+              .input-prepend
+                %button.btn.btn-danger{:type => "button"} Search
+                %button.btn.btn-danger{:type => "button"} Options
+                %input{:type => "text"}/
+              / ./ 2 button prepend
+              %hr/
+              / dropdown prepend
+              .input-prepend
+                .btn-group
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+
+            .span4
+              / split dropdown prepend
+              .input-prepend
+                .btn-group
+                  %button.btn{:tabindex => "-1"} Action
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-info{:tabindex => "-1"} Action
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-primary{:tabindex => "-1"} Action
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-success{:tabindex => "-1"} Action
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-warning{:tabindex => "-1"} Action
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+              .input-prepend
+                .btn-group
+                  %button.btn.btn-danger{:tabindex => "-1"} Action
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+
+    %hr/
+    %fieldset
+      %legend Append
+      .control-group
+        .controls.full-width
+          .row-fluid
+            .span4
+              / text append
+              .input-append
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-append.input-info
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-append.input-primary
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-append.input-success
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-append.input-warning
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-append.input-danger
+                %input{:type => "text"}/
+                %span.add-on .00
+              / ./ text append
+              %hr/
+              / button append
+              .input-append
+                %input{:type => "text"}/
+                %button.btn{:type => "button"} Go!
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-info{:type => "button"} Go!
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-primary{:type => "button"} Go!
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-success{:type => "button"} Go!
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-warning{:type => "button"} Go!
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-danger{:type => "button"} Go!
+
+            .span4
+              / 2 button append
+              .input-append
+                %input{:type => "text"}/
+                %button.btn{:type => "button"} Search
+                %button.btn{:type => "button"} Options
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-info{:type => "button"} Search
+                %button.btn.btn-info{:type => "button"} Options
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-primary{:type => "button"} Search
+                %button.btn.btn-primary{:type => "button"} Options
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-success{:type => "button"} Search
+                %button.btn.btn-success{:type => "button"} Options
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-warning{:type => "button"} Search
+                %button.btn.btn-warning{:type => "button"} Options
+              .input-append
+                %input{:type => "text"}/
+                %button.btn.btn-danger{:type => "button"} Search
+                %button.btn.btn-danger{:type => "button"} Options
+              / ./ 2 button append
+              %hr/
+              / dropdown append
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu.pull-right
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+
+            .span4
+              / split dropdown append
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn{:tabindex => "-1"} Action
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-info{:tabindex => "-1"} Action
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-primary{:tabindex => "-1"} Action
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-success{:tabindex => "-1"} Action
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-warning{:tabindex => "-1"} Action
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-append
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-danger{:tabindex => "-1"} Action
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+
+    %hr/
+    %fieldset
+      %legend Prepend Append
+      .control-group
+        .controls.full-width
+          .row-fluid
+            .span6
+              / text prepend append
+              .input-prepend.input-append
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-prepend.input-append.input-info
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-prepend.input-append.input-primary
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-prepend.input-append.input-success
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-prepend.input-append.input-warning
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              .input-prepend.input-append.input-danger
+                %span.add-on $
+                %input{:type => "text"}/
+                %span.add-on .00
+              / ./ text prepend append
+              %hr/
+              / button prepend append
+              .input-prepend.input-append
+                %button.btn{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn{:type => "button"} Go!
+              .input-prepend.input-append
+                %button.btn.btn-info{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn.btn-info{:type => "button"} Go!
+              .input-prepend.input-append
+                %button.btn.btn-primary{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn.btn-primary{:type => "button"} Go!
+              .input-prepend.input-append
+                %button.btn.btn-success{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn.btn-success{:type => "button"} Go!
+              .input-prepend.input-append
+                %button.btn.btn-warning{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn.btn-warning{:type => "button"} Go!
+              .input-prepend.input-append
+                %button.btn.btn-danger{:type => "button"} Option
+                %input{:type => "text"}/
+                %button.btn.btn-danger{:type => "button"} Go!
+
+            .span6
+              / dropdown prepend append
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown"}
+                    Action
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              / ./ dropdown prepend append
+              %hr/
+              / split dropdown prepend append
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn{:tabindex => "-1"} Action
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn{:tabindex => "-1"} Action
+                  %button.btn.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-info{:tabindex => "-1"} Action
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-info{:tabindex => "-1"} Action
+                  %button.btn.btn-info.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-primary{:tabindex => "-1"} Action
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-primary{:tabindex => "-1"} Action
+                  %button.btn.btn-primary.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-success{:tabindex => "-1"} Action
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-success{:tabindex => "-1"} Action
+                  %button.btn.btn-success.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-warning{:tabindex => "-1"} Action
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-warning{:tabindex => "-1"} Action
+                  %button.btn.btn-warning.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              .input-prepend.input-append
+                .btn-group
+                  %button.btn.btn-danger{:tabindex => "-1"} Action
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+                %input{:type => "text"}/
+                .btn-group
+                  %button.btn.btn-danger{:tabindex => "-1"} Action
+                  %button.btn.btn-danger.dropdown-toggle{"data-toggle" => "dropdown", :tabindex => "-1"}
+                    %span.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Action
+                    %li
+                      %a{:href => "#"} Another action
+                    %li
+                      %a{:href => "#"} Something else here
+                    %li.divider
+                    %li
+                      %a{:href => "#"} Separated link
+              / ./ split dropdown prepend append
+

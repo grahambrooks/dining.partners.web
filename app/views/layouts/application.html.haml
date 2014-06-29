@@ -1,0 +1,45 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title dining partners
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    / required css
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    / ************
+  %body
+    %header
+      .navbar
+        .navbar-inner
+          %a.brand.hidden-phone{:href => "#"} Aro - Bootstrap Custom Components
+          %ul.nav.pull-right
+            %li.active
+              %a{:href => "index.html"}
+                %i.icon-th-large
+                Components
+            %li
+              %a{:href => "icons.html"}
+                %i.icon-th-large
+                Icons
+    = yield
+    / base
+    %script{:src => '/assets/jquery.js'}
+    %script{:src => '/plugins/jquery-migrate-1.1.0.min.js'}
+    %script{:src => '/javascripts/bootstrap.min.js'}
+    %script{:src => '/plugins/easy-pie-chart/jquery.easy-pie-chart.js'}
+    %script{:src => '/plugins/chosen/js/chosen.jquery.min.js'}
+    %script{:src => '/plugins/uniform/js/jquery.uniform.js'}
+    %script{:src => '/plugins/bootstrap-fileupload/bootstrap-fileupload.js'}
+    %script{:src => '/plugins/progress-bar/bootstrap-progressbar.js'}
+    %script{:src => '/plugins/datepicker/js/bootstrap-datepicker.js'}
+    %script{:src => '/plugins/redactor/js/redactor.min.js'}
+    %script{:src => '/plugins/jquery-ui/js/jquery-ui-1.9.2.custom.min.js'}
+    %script{:src => '/plugins/custom-scroll/js/jquery.mousewheel.min.js'}
+    %script{:src => '/plugins/custom-scroll/js/jquery.mCustomScrollbar.js'}
+    / plugins loader
+    %script{:src => '/assets/loader.js'}
