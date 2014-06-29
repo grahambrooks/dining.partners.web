@@ -36,6 +36,8 @@ gem 'spring', group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'mongo'
+gem 'mongodb'
 gem 'bson_ext'
 gem 'haml'
 group :production, :staging do

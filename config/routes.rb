@@ -7,6 +7,10 @@ Rails.application.routes.draw do
 
   get 'profile/:id' => 'profile#view'
 
+  get 'guest/enter' => 'guest#enter'
+  get 'guest/leave' => 'guest#leave'
+  get 'guest/list' => 'guest#list'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
