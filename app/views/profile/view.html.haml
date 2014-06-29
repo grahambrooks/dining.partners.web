@@ -1,9 +1,15 @@
 
-%h1
-  =@profile[:name]
 
 
 %section.container-fluid
+  .row-fluid
+    .span2
+      %a{ href: "#", class: "thumbnail"}
+        %img{ 'data-src'=>"holder.js/100%x180"}
+    .span10
+      %h1
+        =@profile[:name]
+  %hr/
   %h3 Buttons
   %hr/
   .row-fluid
