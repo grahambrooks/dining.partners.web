@@ -4,6 +4,7 @@
 # require 'uri'
 
 class GuestController < ApplicationController
+  layout 'guest_layout'
   # def db
   #   mongo_uri = ENV['MONGOLAB_URI']
   #
