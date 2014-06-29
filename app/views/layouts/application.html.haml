@@ -1,11 +1,11 @@
 !!!
 %html{:lang => "en"}
   %head
-    %meta{:charset => "utf-8"}/
+    %meta{:charset => 'utf-8'}/
     %title dining partners
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    %meta{:content => "", :name => "description"}/
-    %meta{:content => "", :name => "author"}/
+    %meta{:content => 'width=device-width, initial-scale=1.0', :name => 'viewport'}/
+    %meta{:content => 'Dining Partner', :name => 'description'}/
+    %meta{:content => "", :name => 'author'}/
     / required css
 
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
@@ -21,11 +21,11 @@
             %li.active
               %a{:href => "index.html"}
                 %i.icon-th-large
-                Components
+                Create a Profile
             %li
               %a{:href => "icons.html"}
                 %i.icon-th-large
-                Icons
+                Register your Restaurant
     = yield
     / base
     -#%script{:src => '/assets/jquery.js'}
