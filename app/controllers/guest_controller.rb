@@ -4,7 +4,7 @@
 # require 'uri'
 
 class GuestController < ApplicationController
-  def db
+  # def db
   #   mongo_uri = ENV['MONGOLAB_URI']
   #
   #   if !mongo_uri.nil?
