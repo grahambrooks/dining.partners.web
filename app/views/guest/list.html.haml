@@ -1,5 +1,78 @@
 
 -if DiningPartnersWeb::Application.config.guests > 0
-  %h1 Yea we have a guest
+  %h1 New Guests (table 8)
+  .row-fluid
+    .span2
+      %img{ src: '/Will.png'}
+    .span10
+      %ul.list-group
+        %li.list-group-item
+          %span.badge
+            %i.icon.icon-check-square
+          Gluten free
+
+        %li
+          Nut allergy
+        %li Business setting
+        %li Prefers booths
+        %li Prefers uninterrupted dining
+        %li Bottled water
+  %hr/
+
+  .row-fluid
+    .span2
+      %img{ src: '/Anne.png'}
+    .span10
+      %ul
+        %li
+          Likes fine wines
+        %li
+          Likes to know about off-menu specials
+  %hr/
+
+
+  .row-fluid
+    .span2
+      %img{ src: '/Graham.png'}
+    .span10
+      %ul
+        %li
+          Vegan
+  %hr/
+
+  .row-fluid
+    .span2
+      %img{ src: '/Chenai.png'}
+    .span10
+      %ul
+        %li
+          Low calorie
+
+        %li
+          No dessert menu
+        %li
+          No bread basket
+        %li
+          No drinks menu
+  %hr/
+
+
+  .row-fluid
+    .span2
+      %img{ src: '/Annie.png'}
+    .span10
+      %ul
+        %li
+          Seashell allergy
+        %li
+          Likes to try new things
+        %li
+          Interested in beer
+        %li
+          High protein (Atkins diet)
+  %hr/
+
+
+
 -else
   %h1 Waiting for guests to arrive
